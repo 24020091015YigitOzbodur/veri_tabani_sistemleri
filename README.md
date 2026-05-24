@@ -6,12 +6,17 @@ Bu depoda, Veritabanı Sistemleri dersinin 1. haftası kapsamında gerçekleşti
 
 ## 🛠️ Neler Yapıldı?
 
-Ödev gereksinimleri doğrultusunda sırasıyla şu adımlar eksiksiz bir şekilde tamamlanmıştır:
+Ödev gereksinimleri doğrultusunda sırasıyla şu adımlar tamamlanmıştır:
 
-1. **Çevre Kurulumu:** Yerel sunucu ortamı için **WampServer** entegrasyonu sağlandı ve veritabanı yönetimi için **MySQL Workbench** kurulumu başarıyla tamamlandı.
-2. **Veritabanı Oluşturma:** Sistem üzerinde `Odev1` adında temiz bir veritabanı ayağa kaldırıldı.
-3. **Tablo Yapılandırma:** Veritabanı içerisinde `Ad`, `Soyad` ve `Telefon` kolonlarından oluşan `Kisilerim` tablosu oluşturuldu.
-4. **Veri Girişi:** Oluşturulan tabloya örnek kişi verileri güvenli bir şekilde eklendi.
-5. **Veri Listeleme:** Eklenen tüm veriler tek bir `SELECT * FROM Kisilerim;` sorgusuyla başarıyla ekrana yazdırıldı ve süreç ekran görüntüsü alınarak kayıt altına alındı.
+1. **Kurulum İşlemleri:** WampServer ile MySQL veritabanı sisteme kuruldu ve MySQL Workbench bağlantısı başarıyla sağlandı.
+2. **Tablo Oluşturma:** `Odev1` veritabanı içerisinde `Ad`, `Soyad` ve `Telefon` kolonlarından oluşan `Kisilerim` adlı tablo yapılandırıldı.
+3. **Veri Listeleme:** Oluşturulan tabloya kişi verileri girildi ve tek bir `SELECT * FROM Kisilerim;` sorgusuyla ekrana yazdırılarak süreç kayıt altına alındı.
 
 ---
+
+## 📂 Proje İçeriği
+
+* `hafta1odev.sql` : Ödevde istenen tablo oluşturma ve veri ekleme sorgularını barındıran DDL/DML dosyası.
+* `ÖDEV1SS1.png` : SQL sorgularının yazıldığı geliştirme ekranı.
+* `ÖDEV1SS2.png` : `SELECT` sorgusu sonucunda verilerin başarıyla listelendiği çıktı ekranı.
+* `ÖDEV1SS3.png` : Navigator penceresinde oluşturulan veritabanı şemasının ve tablo sütunlarının genel görünümü.
